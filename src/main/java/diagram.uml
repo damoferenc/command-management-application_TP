@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1042.0" y="514.0">presentation.ProductView</node>
+    <node x="455.3224305555557" y="350.0">dao.ClientDAO</node>
+    <node x="844.0724305555557" y="350.0">dao.ProductDAO</node>
+    <node x="436.20000000000005" y="0.0">connection.ConnectionFactory</node>
+    <node x="272.00000000000006" y="668.0">bll.OrderBLL</node>
+    <node x="525.0" y="668.0">bll.ClientBLL</node>
+    <node x="481.20000000000005" y="214.0">dao.AbstractDAO</node>
+    <node x="672.8581250000001" y="1032.0">presentation.Controller</node>
+    <node x="595.3224305555557" y="350.0">bll.validators</node>
+    <node x="926.3164583333335" y="1266.0">MainClass</node>
+    <node x="778.0" y="668.0">bll.ProductBLL</node>
+    <node x="262.60000000000014" y="350.0">dao.OrderDAO</node>
+    <node x="1283.0" y="602.0">presentation.OrderView</node>
+    <node x="0.0" y="470.0">presentation.ClientView</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="MainClass" target="presentation.ProductView">
+      <point x="22.5" y="-15.0" />
+      <point x="1008.8164583333335" y="1226.0" />
+      <point x="1259.7245833333334" y="1226.0" />
+      <point x="1259.7245833333334" y="992.0" />
+      <point x="1235.375" y="992.0" />
+      <point x="82.875" y="192.0" />
+    </edge>
+    <edge source="dao.ClientDAO" target="dao.AbstractDAO">
+      <point x="-30.0" y="-15.0" />
+      <point x="485.3224305555557" y="330.0" />
+      <point x="537.8666666666668" y="330.0" />
+      <point x="-11.333333333333314" y="38.0" />
+    </edge>
+    <edge source="MainClass" target="presentation.OrderView">
+      <point x="52.50000000000003" y="-15.0" />
+      <point x="1038.8164583333335" y="1246.0" />
+      <point x="1410.875" y="1246.0" />
+      <point x="1410.875" y="1012.0" />
+      <point x="1446.625" y="1012.0" />
+      <point x="70.125" y="104.0" />
+    </edge>
+    <edge source="bll.ClientBLL" target="dao.ClientDAO">
+      <point x="-93.19999999999993" y="-38.0" />
+      <point x="548.3000000000002" y="410.0" />
+      <point x="485.3224305555557" y="410.0" />
+      <point x="-30.0" y="15.0" />
+    </edge>
+    <edge source="presentation.Controller" target="presentation.ClientView">
+      <point x="-85.70833333333337" y="-82.0" />
+      <point x="680.6497916666667" y="1012.0" />
+      <point x="157.5" y="1012.0" />
+      <point x="31.5" y="236.0" />
+    </edge>
+    <edge source="dao.OrderDAO" target="dao.AbstractDAO">
+      <point x="28.0" y="-15.0" />
+      <point x="346.60000000000014" y="320.0" />
+      <point x="515.2" y="320.0" />
+      <point x="-34.0" y="38.0" />
+    </edge>
+    <edge source="presentation.Controller" target="presentation.ProductView">
+      <point x="38.95833333333337" y="-82.0" />
+      <point x="805.3164583333335" y="982.0" />
+      <point x="1069.625" y="982.0" />
+      <point x="-82.875" y="192.0" />
+    </edge>
+    <edge source="presentation.Controller" target="bll.ClientBLL">
+      <point x="-23.375" y="-82.0" />
+      <point x="742.9831250000001" y="972.0" />
+      <point x="583.25" y="972.0" />
+      <point x="-58.25" y="38.0" />
+    </edge>
+    <edge source="dao.ProductDAO" target="dao.AbstractDAO">
+      <point x="-32.0" y="-15.0" />
+      <point x="876.0724305555557" y="330.0" />
+      <point x="583.2" y="330.0" />
+      <point x="34.0" y="38.0" />
+    </edge>
+    <edge source="dao.AbstractDAO" target="connection.ConnectionFactory">
+      <point x="0.0" y="-38.0" />
+      <point x="0.0" y="82.0" />
+    </edge>
+    <edge source="bll.ProductBLL" target="dao.ProductDAO">
+      <point x="48.799999999999955" y="-38.0" />
+      <point x="948.8" y="410.0" />
+      <point x="876.0724305555557" y="410.0" />
+      <point x="-32.0" y="15.0" />
+    </edge>
+    <edge source="presentation.Controller" target="bll.ProductBLL">
+      <point x="7.791666666666629" y="-82.0" />
+      <point x="774.1497916666667" y="962.0" />
+      <point x="839.0" y="962.0" />
+      <point x="-61.0" y="38.0" />
+    </edge>
+    <edge source="MainClass" target="presentation.Controller">
+      <point x="-22.5" y="-15.0" />
+      <point x="963.8164583333335" y="1226.0" />
+      <point x="719.6081250000001" y="1226.0" />
+      <point x="-46.75" y="82.0" />
+    </edge>
+    <edge source="bll.OrderBLL" target="bll.validators">
+      <point x="0.0" y="-38.0" />
+      <point x="388.50000000000006" y="420.0" />
+      <point x="605.1002083333335" y="420.0" />
+      <point x="-78.22222222222217" y="15.0" />
+    </edge>
+    <edge source="bll.ClientBLL" target="bll.validators">
+      <point x="0.0" y="-38.0" />
+      <point x="641.5" y="450.0" />
+      <point x="663.7668750000001" y="450.0" />
+      <point x="-19.555555555555543" y="15.0" />
+    </edge>
+    <edge source="presentation.Controller" target="bll.OrderBLL">
+      <point x="-54.54166666666674" y="-82.0" />
+      <point x="711.8164583333333" y="992.0" />
+      <point x="330.25000000000006" y="992.0" />
+      <point x="-58.25" y="38.0" />
+    </edge>
+    <edge source="bll.OrderBLL" target="dao.OrderDAO">
+      <point x="-93.19999999999993" y="-38.0" />
+      <point x="295.3000000000001" y="450.0" />
+      <point x="290.60000000000014" y="450.0" />
+      <point x="-28.0" y="15.0" />
+    </edge>
+    <edge source="bll.ProductBLL" target="bll.validators">
+      <point x="-97.60000000000002" y="-38.0" />
+      <point x="802.4000000000001" y="440.0" />
+      <point x="722.4335416666668" y="440.0" />
+      <point x="39.111111111111086" y="15.0" />
+    </edge>
+    <edge source="MainClass" target="presentation.ClientView">
+      <point x="-37.5" y="-15.0" />
+      <point x="948.8164583333335" y="1236.0" />
+      <point x="92.34395833333338" y="1236.0" />
+      <point x="92.34395833333338" y="1012.0" />
+      <point x="94.5" y="1012.0" />
+      <point x="-31.5" y="236.0" />
+    </edge>
+    <edge source="presentation.Controller" target="presentation.OrderView">
+      <point x="70.125" y="-82.0" />
+      <point x="836.4831250000001" y="1002.0" />
+      <point x="1306.375" y="1002.0" />
+      <point x="-70.125" y="104.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="330.66666666666663" y="511.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
